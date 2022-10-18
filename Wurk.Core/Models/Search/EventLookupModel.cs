@@ -1,0 +1,10 @@
+﻿namespace Wurk.Core.Models.Search
+{
+
+    public class EventLookupModel 
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+    }
+}

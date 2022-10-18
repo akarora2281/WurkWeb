@@ -1,0 +1,22 @@
+﻿using Wurk.Core.Models.FaqEntity;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Wurk.Controllers
+{
+    public class AboutController : BaseController
+    {
+        private readonly IAboutService aboutService;
+
+        public AboutController(IAboutService aboutService)
+        {
+            this.aboutService = aboutService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var faq = await aboutService.GetAllFaqsAsync<FaqViewModel>();
+
+            return View(faq);
+        }
+    }
+}

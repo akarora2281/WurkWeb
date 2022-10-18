@@ -1,0 +1,10 @@
+﻿@inject SignInManager<ApplicationUser> SignInManager
+
+@if (this.SignInManager.IsSignedIn(this.User))
+    {
+        Layout = "/Views/Shared/_Layout-LoggedIn.cshtml";
+    }
+    else
+    {
+        Layout = "/Views/Shared/_Layout.cshtml";
+    }

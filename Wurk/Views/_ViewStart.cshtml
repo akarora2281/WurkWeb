@@ -1,0 +1,10 @@
+﻿@inject SignInManager<ApplicationUser> SignInManager
+
+@if (this.SignInManager.IsSignedIn(this.User))
+    {
+        Layout = "_Layout-LoggedIn";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
