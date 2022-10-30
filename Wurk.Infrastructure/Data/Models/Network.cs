@@ -8,19 +8,17 @@
 
     public class Network : BaseDeletableModel<int>
     {
-        [Required]
         [MaxLength(TitleMaxLength)]
         public string Title { get; set; }
 
-        [Required]
         public string Description { get; set; }
 
-        [Required]
         [MaxLength(ContentMaxLength)]
-        public string Content { get; set; }
+        public string Tags { get; set; }
 
-        [Required]
         [ForeignKey(nameof(ApplicationUser))]
         public string UserId { get; set; }
+
+        public int EmployerId { get; set; }
     }
 }

@@ -41,14 +41,14 @@
 <body class="hold-transition sidebar-mini">
     <partial name="_CookieConsentPartial" />
     <div class="wrapper">
-           
+
         <!-- Navbar -->
         <nav class="main-header navbar navbar-primary navbar-expand navbar-dark">
 
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">
                 <!-- Navbar Search -->
-                <partial name="_Navigation"/>
+                <partial name="_Navigation" />
                 <li class="nav-item">
                     <language-nav flags="true" redirect-to-url="@(Url.RouteUrl(routeData))" cookie-handler-url="@Url.Action("SetCultureCookie", "Home", new { area = "", cltr = "{0}", returnUrl = "{1}" })"></language-nav>
                 </li>
@@ -65,7 +65,7 @@
 
                 <!-- Sidebar user panel (optional) -->
                 <ul class="flex-row align-items-center justify-centre-start">
-                    <partial name="_LoginPartial"/>
+                    <partial name="_LoginPartial" />
                 </ul>
             </div>
             <!-- /.sidebar -->
@@ -80,12 +80,13 @@
                         <div class="col-sm-6">
                             <h1 class="m-0">@ViewData["Title"]</h1>
                         </div><!-- /.col -->
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Starter Page</li>
-                            </ol>
-                        </div><!-- /.col -->
+                        <!-- /.col <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active">Starter Page</li>
+        </ol>
+    </div>-->
+                        <!-- /.col -->
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
             </div>
@@ -100,22 +101,22 @@
         </div>
         <!-- /.content-wrapper -->
 
-        <partial name="_FooterPartial"/>
+        <partial name="_FooterPartial" />
     </div>
-<!-- ./wrapper -->
-<!-- REQUIRED SCRIPTS -->
-<!-- jQuery -->
-<script src="/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
-<script src="/plugins/toastr/toastr.min.js"></script>
-<!-- overlayScrollbars -->
-<link rel="stylesheet" href="/plugins/overlayScrollbars/css/OverlayScrollbars.min.css"/>
-<partial name="_UserMessages"/>
+    <!-- ./wrapper -->
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <!-- <script src="dist/js/adminlte.min.js"></script>-->
+    <script src="/plugins/toastr/toastr.min.js"></script>
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="/plugins/overlayScrollbars/css/OverlayScrollbars.min.css" />
+    <partial name="_UserMessages" />
 
-@await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
 

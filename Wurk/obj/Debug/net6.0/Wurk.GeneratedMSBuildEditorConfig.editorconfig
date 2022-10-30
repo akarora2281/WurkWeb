@@ -11,7 +11,7 @@ build_property.RootNamespace = Wurk
 build_property.ProjectDir = /Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk
 build_property._RazorSourceGeneratorDebug = 
 
@@ -277,6 +277,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Home/ThankYou.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UaGFua1lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/Error.cshtml]

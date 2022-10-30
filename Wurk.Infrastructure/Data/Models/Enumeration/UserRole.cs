@@ -4,6 +4,8 @@
     {
         Admin = 0,
         Manager = 1,
-        RegularUser = 2
+        RegularUser = 2,
+        Employer = 3,
+        Employee = 4
     }
 }

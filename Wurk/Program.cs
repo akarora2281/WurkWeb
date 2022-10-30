@@ -12,7 +12,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 })
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(); //.AddRazorRuntimeCompilation();
 
 // builder.Services.AddAuthentication()
 //  .AddFacebook(options =>
@@ -77,6 +77,8 @@ builder.Services.AddScoped<IContactsService, ContactsService>();
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<ISettingsService, SettingsService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<INetworkService, NetworkService>();
+builder.Services.AddScoped<IProfileService, ProfileService>();
 
 // Cloudinary Setup
 Account account = new Account(

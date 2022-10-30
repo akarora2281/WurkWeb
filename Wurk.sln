@@ -5,11 +5,11 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wurk.Common", "Wurk.Common\Wurk.Common.csproj", "{4AB1DE03-9A47-4B6A-B62B-680515ADF2C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wurk.Infrastructure", "Wurk.Infrastructure\Wurk.Infrastructure.csproj", "{BF3A9F16-34E6-4B74-9A9B-71F3F17E01DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wurk.Infrastructure", "Wurk.Infrastructure\Wurk.Infrastructure.csproj", "{BF3A9F16-34E6-4B74-9A9B-71F3F17E01DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wurk.Core", "Wurk.Core\Wurk.Core.csproj", "{785C03F6-2890-4D80-82E4-5D12305860A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wurk.Core", "Wurk.Core\Wurk.Core.csproj", "{785C03F6-2890-4D80-82E4-5D12305860A5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wurk", "Wurk\Wurk.csproj", "{6C112F0D-EFD7-4BFC-9D0C-D1402A536269}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wurk", "Wurk\Wurk.csproj", "{6C112F0D-EFD7-4BFC-9D0C-D1402A536269}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wurk.Tests", "Wurk.Tests\Wurk.Tests.csproj", "{2789BD77-884E-408E-B715-86D0875CA7CD}"
 EndProject

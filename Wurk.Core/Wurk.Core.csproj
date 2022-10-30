@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <AssemblyName>Wurk.Core</AssemblyName>
   </PropertyGroup>
 
@@ -20,5 +19,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Wurk.Common\Wurk.Common.csproj" />
     <ProjectReference Include="..\Wurk.Infrastructure\Wurk.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Models\Profile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Profile\" />
   </ItemGroup>
 </Project>

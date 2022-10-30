@@ -61,6 +61,16 @@
             public const int CommentContentMaxLength = 150;
         }
 
+        public static class SupportiveNetwork
+        {
+            public const int TitleMinLength = 5;
+            public const int TitleMaxLength = 70;
+            public const int ContentMinLength = 600;
+            public const int ContentMaxLength = 3500;
+            public const int AdminAuthorMinLength = 50;
+            public const int AdminAuthorMaxLength = 100;
+        }
+
         public static class ExhibitionHall
         {
             public const int CapacityMinLength = 5;

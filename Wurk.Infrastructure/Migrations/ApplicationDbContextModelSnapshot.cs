@@ -22,7 +22,7 @@ namespace Wurk.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ApplicationUser", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -109,7 +109,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.WurkUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -196,10 +196,10 @@ namespace Wurk.Infrastructure.Migrations
 
                     b.HasIndex("ShoppingCartId");
 
-                    b.ToTable("ArtGalleryUser", (string)null);
+                    b.ToTable("WurkUser", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtOrder", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ArtOrder", b =>
                 {
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
@@ -237,7 +237,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("ArtsOrders", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtStore", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ArtStore", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -370,7 +370,7 @@ namespace Wurk.Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.BlogComment", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.BlogComment", b =>
                 {
                     b.Property<int>("BlogPostId")
                         .HasColumnType("int");
@@ -407,7 +407,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("Comments", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.BlogPost", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.BlogPost", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -524,7 +524,7 @@ namespace Wurk.Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.BookingTransaction", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.BookingTransaction", b =>
                 {
                     b.Property<int>("EventId")
                         .HasColumnType("int");
@@ -568,7 +568,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("BookingTransactions", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ContactForm", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ContactForm", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -619,7 +619,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("Contacts", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.Event", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.Event", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -769,7 +769,7 @@ namespace Wurk.Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.EventOrder", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.EventOrder", b =>
                 {
                     b.Property<int>("EventId")
                         .HasColumnType("int");
@@ -810,7 +810,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("EventsOrders", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ExhibitionHall", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ExhibitionHall", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -848,7 +848,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("ExhibitionHalls", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.FaqEntity", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.FaqEntity", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -943,7 +943,7 @@ namespace Wurk.Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.Privacy", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.Privacy", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -975,7 +975,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("Privacies", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.SaleTransaction", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.SaleTransaction", b =>
                 {
                     b.Property<int>("ArtId")
                         .HasColumnType("int");
@@ -1016,7 +1016,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("SaleTransactions", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.Setting", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.Setting", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -1051,7 +1051,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("Settings", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ShoppingCart", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ShoppingCart", b =>
                 {
                     b.Property<decimal>("Id")
                         .ValueGeneratedOnAdd()
@@ -1157,7 +1157,7 @@ namespace Wurk.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("ArtGalleryUserId")
+                    b.Property<string>("WurkUserId")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ClaimType")
@@ -1172,7 +1172,7 @@ namespace Wurk.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ArtGalleryUserId");
+                    b.HasIndex("WurkUserId");
 
                     b.HasIndex("UserId");
 
@@ -1187,7 +1187,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.Property<string>("ProviderKey")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("ArtGalleryUserId")
+                    b.Property<string>("WurkUserId")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
@@ -1199,7 +1199,7 @@ namespace Wurk.Infrastructure.Migrations
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
-                    b.HasIndex("ArtGalleryUserId");
+                    b.HasIndex("WurkUserId");
 
                     b.HasIndex("UserId");
 
@@ -1214,12 +1214,12 @@ namespace Wurk.Infrastructure.Migrations
                     b.Property<string>("RoleId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("ArtGalleryUserId")
+                    b.Property<string>("WurkUserId")
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("UserId", "RoleId");
 
-                    b.HasIndex("ArtGalleryUserId");
+                    b.HasIndex("WurkUserId");
 
                     b.HasIndex("RoleId");
 
@@ -1245,9 +1245,9 @@ namespace Wurk.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.WurkUser", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ShoppingCart", "ShoppingCart")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ShoppingCart", "ShoppingCart")
                         .WithMany()
                         .HasForeignKey("ShoppingCartId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1256,15 +1256,15 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("ShoppingCart");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtOrder", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ArtOrder", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtStore", "PaintingName")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ArtStore", "PaintingName")
                         .WithMany()
                         .HasForeignKey("ArtId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", "User")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1275,22 +1275,22 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtStore", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ArtStore", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ShoppingCart", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ShoppingCart", null)
                         .WithMany("Arts")
                         .HasForeignKey("ShoppingCartId");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.BlogComment", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.BlogComment", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.BlogPost", "BlogPost")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.BlogPost", "BlogPost")
                         .WithMany()
                         .HasForeignKey("BlogPostId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", "User")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", "User")
                         .WithMany("Comments")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1301,15 +1301,15 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.BookingTransaction", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.BookingTransaction", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.Event", "Event")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.Event", "Event")
                         .WithMany("BookingTransactions")
                         .HasForeignKey("EventId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", "User")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", "User")
                         .WithMany("BookingsTransactions")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1320,15 +1320,15 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.EventOrder", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.EventOrder", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.Event", "Event")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.Event", "Event")
                         .WithMany()
                         .HasForeignKey("EventId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", "User")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1339,9 +1339,9 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ExhibitionHall", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ExhibitionHall", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.Event", "EventName")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.Event", "EventName")
                         .WithMany()
                         .HasForeignKey("EventId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1350,15 +1350,15 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("EventName");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.SaleTransaction", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.SaleTransaction", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtStore", "PaintingName")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ArtStore", "PaintingName")
                         .WithMany("SaleTransactions")
                         .HasForeignKey("ArtId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", "User")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", "User")
                         .WithMany("SaleTransactions")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1369,9 +1369,9 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ShoppingCart", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ShoppingCart", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", "User")
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1391,11 +1391,11 @@ namespace Wurk.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", null)
                         .WithMany("Claims")
-                        .HasForeignKey("ArtGalleryUserId");
+                        .HasForeignKey("WurkUserId");
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ApplicationUser", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ApplicationUser", null)
                         .WithMany("Claims")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1404,11 +1404,11 @@ namespace Wurk.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", null)
                         .WithMany("Logins")
-                        .HasForeignKey("ArtGalleryUserId");
+                        .HasForeignKey("WurkUserId");
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ApplicationUser", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ApplicationUser", null)
                         .WithMany("Logins")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1417,9 +1417,9 @@ namespace Wurk.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.WurkUser", null)
                         .WithMany("Roles")
-                        .HasForeignKey("ArtGalleryUserId");
+                        .HasForeignKey("WurkUserId");
 
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
                         .WithMany()
@@ -1427,7 +1427,7 @@ namespace Wurk.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ApplicationUser", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ApplicationUser", null)
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -1436,14 +1436,14 @@ namespace Wurk.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("ArtGallery.Infrastructure.Data.Models.ApplicationUser", null)
+                    b.HasOne("Wurk.Infrastructure.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ApplicationUser", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ApplicationUser", b =>
                 {
                     b.Navigation("Claims");
 
@@ -1452,7 +1452,7 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("Roles");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtGalleryUser", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.WurkUser", b =>
                 {
                     b.Navigation("BookingsTransactions");
 
@@ -1467,17 +1467,17 @@ namespace Wurk.Infrastructure.Migrations
                     b.Navigation("SaleTransactions");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ArtStore", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ArtStore", b =>
                 {
                     b.Navigation("SaleTransactions");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.Event", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.Event", b =>
                 {
                     b.Navigation("BookingTransactions");
                 });
 
-            modelBuilder.Entity("ArtGallery.Infrastructure.Data.Models.ShoppingCart", b =>
+            modelBuilder.Entity("Wurk.Infrastructure.Data.Models.ShoppingCart", b =>
                 {
                     b.Navigation("Arts");
                 });

@@ -28,6 +28,12 @@
             await this.DbSet<T>().AddAsync(entity);
         }
 
+        public async Task AddRangeAsync<T>(List<T> entity)
+            where T : class
+        {
+            await this.DbSet<T>().AddRangeAsync(entity);
+        }
+
         public IQueryable<T> All<T>()
             where T : class
         {

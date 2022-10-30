@@ -42,7 +42,7 @@
 
             if (isPostExist)
             {
-                throw new ArgumentException(string.Format(BlogPostAlredyExists, model.Title));
+                throw new ArgumentException(string.Format(BlogPostAlreadyExists, model.Title));
             }
 
             await this._blogRepo.AddAsync(blog);

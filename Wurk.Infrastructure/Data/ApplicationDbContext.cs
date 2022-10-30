@@ -60,6 +60,8 @@ namespace Wurk.Infrastructure.Data
 
         public DbSet<Network> Networks { get; set; }
 
+        public DbSet<Profile_Questions> Profile_Questions { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
@@ -137,12 +139,6 @@ namespace Wurk.Infrastructure.Data
                 .HasColumnType("decimal");
 
             // Initial Data Seed
-            //  builder.ApplyConfiguration(new InitialDataSeed<BlogPost>(@"DataSeed/blog.json"));
-            //  builder.ApplyConfiguration(new InitialDataSeed<ArtStore>(@"DataSeed/arts.json"));
-            //  builder.ApplyConfiguration(new InitialDataSeed<Event>(@"DataSeed/events.json"));
-            //  builder.ApplyConfiguration(new InitialDataSeed<FaqEntity>(@"DataSeed/faqs.json"));
-
-            // Code change by behaviour.
             builder.Entity<BlogPost>().HasData(SeedUserData<BlogPost>(@"DataSeed/blog.json"));
             builder.Entity<ArtStore>().HasData(SeedUserData<ArtStore>(@"DataSeed/arts.json"));
             builder.Entity<Event>().HasData(SeedUserData<Event>(@"DataSeed/events.json"));

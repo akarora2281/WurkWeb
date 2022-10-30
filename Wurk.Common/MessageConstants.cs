@@ -31,7 +31,15 @@ namespace Wurk.Common
         public const string LatestPost = "Your Blog Post should be the latest date published.";
         public const string NonExistingPost = "A Blog Post does not exists with id: {0} !";
         public const string BlogPostCreate = "Blog Post was created successfully!";
-        public const string BlogPostAlredyExists = "A Blog Post already exist with Title: {O}.";
+        public const string BlogPostAlreadyExists = "A Blog Post already exist with Title: {O}.";
+
+        // Network
+        public const string NetworkAlreadyExists = "A Network already exist with Title";
+
+        //Profile
+        public const string ProfileFeelGoodAlreadyExists = "A profile FeelGood already exist with Title";
+        public const string ProfileBeGoodAlreadyExists = "A profile BeGood already exist with Title";
+        public const string ProfileDoGoodAlreadyExists = "A profile DoGood already exist with Title";
 
         // Arts
         public const string PaintingName = "Painting Name should be between 10 and 35 characters long.";
