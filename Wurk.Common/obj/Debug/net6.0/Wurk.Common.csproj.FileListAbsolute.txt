@@ -34,3 +34,15 @@
 /Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/obj/Debug/net6.0/refint/Wurk.Common.dll
 /Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/obj/Debug/net6.0/Wurk.Common.pdb
 /Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/obj/Debug/net6.0/ref/Wurk.Common.dll
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/bin/Debug/net6.0/Wurk.Common.deps.json
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/bin/Debug/net6.0/Wurk.Common.dll
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/bin/Debug/net6.0/Wurk.Common.pdb
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/Wurk.Common.csproj.AssemblyReference.cache
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/Wurk.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/Wurk.Common.AssemblyInfoInputs.cache
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/Wurk.Common.AssemblyInfo.cs
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/Wurk.Common.csproj.CoreCompileInputs.cache
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/Wurk.Common.dll
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/refint/Wurk.Common.dll
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/Wurk.Common.pdb
+/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/Debug/net6.0/ref/Wurk.Common.dll

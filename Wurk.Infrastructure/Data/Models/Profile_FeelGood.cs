@@ -6,13 +6,10 @@
 
     public class Profile_FeelGood : BaseDeletableModel<int>
     {
-        [Required]
         public string Talents { get; set; }
 
-        [Required]
         public string Passions { get; set; }
 
-        [Required]
         public string Knowledge { get; set; }
     }
 }

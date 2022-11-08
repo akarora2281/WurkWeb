@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj",
+      "projectUniqueName": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj",
       "projectName": "Wurk.Common",
-      "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj",
+      "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj",
       "packagesPath": "/Users/amitk/.nuget/packages/",
-      "outputPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/obj/",
+      "outputPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/amitk/.nuget/NuGet/NuGet.Config"

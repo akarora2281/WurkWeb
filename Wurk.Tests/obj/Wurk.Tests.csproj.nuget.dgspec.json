@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Tests/Wurk.Tests.csproj": {}
+    "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Tests/Wurk.Tests.csproj": {}
   },
   "projects": {
-    "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj": {
+    "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj",
+        "projectUniqueName": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj",
         "projectName": "Wurk.Common",
-        "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj",
+        "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj",
         "packagesPath": "/Users/amitk/.nuget/packages/",
-        "outputPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/obj/",
+        "outputPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amitk/.nuget/NuGet/NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/Wurk.Core.csproj": {
+    "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/Wurk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/Wurk.Core.csproj",
+        "projectUniqueName": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/Wurk.Core.csproj",
         "projectName": "Wurk.Core",
-        "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/Wurk.Core.csproj",
+        "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/Wurk.Core.csproj",
         "packagesPath": "/Users/amitk/.nuget/packages/",
-        "outputPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/obj/",
+        "outputPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amitk/.nuget/NuGet/NuGet.Config"
@@ -85,11 +85,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj": {
-                "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj"
+              "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj": {
+                "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj"
               },
-              "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/Wurk.Infrastructure.csproj": {
-                "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/Wurk.Infrastructure.csproj"
+              "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/Wurk.Infrastructure.csproj": {
+                "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/Wurk.Infrastructure.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/Wurk.Infrastructure.csproj": {
+    "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/Wurk.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/Wurk.Infrastructure.csproj",
+        "projectUniqueName": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/Wurk.Infrastructure.csproj",
         "projectName": "Wurk.Infrastructure",
-        "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/Wurk.Infrastructure.csproj",
+        "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/Wurk.Infrastructure.csproj",
         "packagesPath": "/Users/amitk/.nuget/packages/",
-        "outputPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/obj/",
+        "outputPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amitk/.nuget/NuGet/NuGet.Config"
@@ -163,8 +163,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj": {
-                "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj"
+              "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj": {
+                "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj"
               }
             }
           }
@@ -240,14 +240,14 @@
         }
       }
     },
-    "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Tests/Wurk.Tests.csproj": {
+    "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Tests/Wurk.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Tests/Wurk.Tests.csproj",
+        "projectUniqueName": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Tests/Wurk.Tests.csproj",
         "projectName": "Wurk.Tests",
-        "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Tests/Wurk.Tests.csproj",
+        "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Tests/Wurk.Tests.csproj",
         "packagesPath": "/Users/amitk/.nuget/packages/",
-        "outputPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Tests/obj/",
+        "outputPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amitk/.nuget/NuGet/NuGet.Config"
@@ -262,8 +262,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Wurk.csproj": {
-                "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Wurk.csproj"
+              "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Wurk.csproj": {
+                "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Wurk.csproj"
               }
             }
           }
@@ -337,14 +337,14 @@
         }
       }
     },
-    "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Wurk.csproj": {
+    "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Wurk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Wurk.csproj",
+        "projectUniqueName": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Wurk.csproj",
         "projectName": "Wurk",
-        "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Wurk.csproj",
+        "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Wurk.csproj",
         "packagesPath": "/Users/amitk/.nuget/packages/",
-        "outputPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/obj/",
+        "outputPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amitk/.nuget/NuGet/NuGet.Config"
@@ -359,11 +359,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj": {
-                "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj"
+              "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj": {
+                "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj"
               },
-              "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/Wurk.Core.csproj": {
-                "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/Wurk.Core.csproj"
+              "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/Wurk.Core.csproj": {
+                "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/Wurk.Core.csproj"
               }
             }
           }

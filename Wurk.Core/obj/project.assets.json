@@ -5948,11 +5948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/Wurk.Core.csproj",
+      "projectUniqueName": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/Wurk.Core.csproj",
       "projectName": "Wurk.Core",
-      "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/Wurk.Core.csproj",
+      "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/Wurk.Core.csproj",
       "packagesPath": "/Users/amitk/.nuget/packages/",
-      "outputPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Core/obj/",
+      "outputPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/amitk/.nuget/NuGet/NuGet.Config"
@@ -5967,11 +5967,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj": {
-              "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj"
+            "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj": {
+              "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj"
             },
-            "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/Wurk.Infrastructure.csproj": {
-              "projectPath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Infrastructure/Wurk.Infrastructure.csproj"
+            "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/Wurk.Infrastructure.csproj": {
+              "projectPath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Infrastructure/Wurk.Infrastructure.csproj"
             }
           }
         }

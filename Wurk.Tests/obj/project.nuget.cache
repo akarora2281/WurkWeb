@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D4Wc7wSFemHu3CQxQ8e/YLcBB6wH18E3bO6DTK3f9iKjrXTP0SuT+NbZnuTZA/Ecqwb3rr+Rp1KzplEWR8Pk/g==",
+  "dgSpecHash": "siQYlGCTQDkdWHOIbIjAWRXTjU/cGWi6O6bs298shU0elFOg/VDKv7GMZ6Vy0yW8Z62xUOFmtJQVRtbzzXjOoQ==",
   "success": true,
-  "projectFilePath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Tests/Wurk.Tests.csproj",
+  "projectFilePath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Tests/Wurk.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/amitk/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/Users/amitk/.nuget/packages/castle.core/4.4.1/castle.core.4.4.1.nupkg.sha512",

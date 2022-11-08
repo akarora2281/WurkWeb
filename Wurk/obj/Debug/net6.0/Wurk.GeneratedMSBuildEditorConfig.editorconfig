@@ -8,369 +8,369 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Wurk
 build_property.RootNamespace = Wurk
-build_property.ProjectDir = /Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/
+build_property.ProjectDir = /Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = /Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk
+build_property.MSBuildProjectDirectory = /Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/About/All.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/About/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvQWJvdXQvQWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/About/Create.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/About/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvQWJvdXQvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/About/Delete.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/About/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvQWJvdXQvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/About/Edit.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/About/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvQWJvdXQvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/Event/All.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/Event/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvRXZlbnQvQWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/Event/Create.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/Event/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvRXZlbnQvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/Event/Delete.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/Event/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvRXZlbnQvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/Event/Edit.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/Event/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvRXZlbnQvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/Home/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/Shared/_AdminLayout.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/Shared/_AdminNavigation.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/Shared/_AdminNavigation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvU2hhcmVkL19BZG1pbk5hdmlnYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/User/Edit.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvVXNlci9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/User/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/User/ManageUsers.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/User/ManageUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvVXNlci9NYW5hZ2VVc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/User/Roles.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/User/Roles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvVXNlci9Sb2xlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/_ViewImports.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Administration/Views/_ViewStart.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Administration/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW5pc3RyYXRpb24vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Db25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Db25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9FeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Lockout.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Login.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Logout.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/Register.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/Error.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/_ViewImports.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/About/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Blog/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Dashboard/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Dashboard/Index2.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Dashboard/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Event/AllEvents.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Event/AllEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvQWxsRXZlbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Home/Contacts.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Home/Contacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Home/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Home/Privacy.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Home/ThankYou.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Home/ThankYou.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UaGFua1lvdS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Create.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Network/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Delete.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Network/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Details.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Network/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Edit.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Network/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Network/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Network/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTmV0d29yay9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Create.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Profile/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Delete.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Profile/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Details.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Profile/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Edit.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Profile/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Profile/Index.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/Error.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/Error404.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/Error404.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yNDA0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/Error500.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/Error500.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yNTAwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_CookieConsentPartial.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_CookieConsentPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_FooterPartial.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_LoginPartial.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_Navigation.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_Navigation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19OYXZpZ2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_SearchBox.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_SearchBox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TZWFyY2hCb3guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_UserMessages.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_UserMessages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Vc2VyTWVzc2FnZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/_ViewImports.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/_ViewStart.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_Layout-LoggedIn.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_Layout-LoggedIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQtTG9nZ2VkSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xiklt8tkid
 
-[/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Views/Shared/_Layout.cshtml]
+[/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zuaaneqzwj

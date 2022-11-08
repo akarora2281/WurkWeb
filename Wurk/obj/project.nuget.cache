@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RMFmeTqjDTc02RGYO7MXLXwPJx36YipQPmoe5l+FNABRMvbaddrUZEqMfWh2Ecm7BuNrnhzGNpHAF+IX1ZeFcQ==",
+  "dgSpecHash": "iTKrgBRU0awQ6X7F+ZB6G8w+tHC+T84VWqnwA3gUJWtePLso+VfawFqAyjAzTlnA7jcZLGX5xmX6+xAzAM1hCA==",
   "success": true,
-  "projectFilePath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk/Wurk.csproj",
+  "projectFilePath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk/Wurk.csproj",
   "expectedPackageFiles": [
     "/Users/amitk/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/Users/amitk/.nuget/packages/cloudinarydotnet/1.17.0/cloudinarydotnet.1.17.0.nupkg.sha512",

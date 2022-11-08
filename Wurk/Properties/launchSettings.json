@@ -24,7 +24,7 @@
     "Wurk": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:19377",
+      "applicationUrl": "http://localhost:41054",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

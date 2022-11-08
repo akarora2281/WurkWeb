@@ -1,264 +1,256 @@
-@model Wurk.Core.Models.Profile.ProfileCreateInputModel
+﻿@model Wurk.Core.Models.Profile.ProfileCreateInputModel
 
 @{
     ViewData["Title"] = "Create";
 }
 
 <h1>Your profile</h1>
-
-<h4>Profile_Questions</h4>
 <hr />
 <div class="row">
+    <div class="col-md-6">
+        <div class="rectangle_profile_small"><h4>Profile_Questions</h4></div>
+        <div class="rectangle_profile_big">
+            <h4>Amit kumar</h4>
+            <span>Feel Good - Do Good - Be Good</span>
+        </div>
+    </div>
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="UserId" class="control-label"></label>
-                <input type="hidden" id="UserId" name="PersonId" asp-for="UserId" />
+                <input type="hidden" name="UserId" asp-for="UserId" />
             </div>
 
-            <svg height="550" width="550">
-                <circle cx="70" cy="150" r="40"
-                        stroke="blue"
-                        stroke-width="1"
-                        fill="blue" onclick="clickCircMusic()" />
-                <text x="70" y="150"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px"
-                      alignment-baseline="middle" onclick="clickCircMusic()">
-                    Music
-                </text>
-                <circle cx="130" cy="90" r="40"
-                        stroke="blue"
-                        stroke-width="3"
-                        fill="blue" onclick="clickCircSport()" />
-                <text x="130" y="90"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px"
-                      alignment-baseline="middle" onclick="clickCircSport()">
-                    Sport
-                </text>
-                <circle cx="210" cy="57" r="40"
-                        stroke="blue"
-                        stroke-width="3"
-                        fill="blue" onclick="clickCircTravel()" />
-                <text x="210" y="57"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px" onclick="clickCircTravel()">
-                    Travel
-                </text>
-                <circle cx="300" cy="59" r="40"
-                        stroke="blue"
-                        stroke-width="3"
-                        fill="blue" onclick="clickCircLearning()"/>
-                <text x="300" y="59"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px" onclick="clickCircLearning()">
-                    Learning
-                </text>
-                <circle id="centreCircle" cx="250" cy="270" r="170"
-                        stroke=""
-                        stroke-width="3"
-                        fill="transparent" />
-                <use xlink:href="#centreCircle" stroke="green" stroke-dasharray="0,2.09,8.38,30" />
-                <use xlink:href="#centreCircle" stroke="blue" stroke-dasharray="0,10.47,8.38,30" />
-                <use xlink:href="#centreCircle" stroke="orange" stroke-dasharray="2.09,16.75,6.3" />
-                <text x="250" y="270"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    What do you do when you feel happiest?
-                </text>
-                <circle cx="51" cy="353" r="40"
-                        stroke="orange"
-                        stroke-width="3"
-                        fill="orange" onclick="clickCircInnovation()" />
-                <text x="51" y="353"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px" onclick="clickCircInnovation()">
-                    Innovation
-                </text>
-                <circle cx="98" cy="425" r="40"
-                        stroke="orange"
-                        stroke-width="3"
-                        fill="orange" onclick="clickCircPeople()" />
-                <text x="98" y="425"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px" onclick="clickCircPeople()">
-                    People
-                </text>
-                <circle cx="170" cy="470" r="40"
-                        stroke="orange"
-                        stroke-width="3"
-                        fill="orange" />
-                <text x="170" y="470"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Strategy
-                </text>
-                <circle cx="35" cy="260" r="40"
-                        stroke="orange"
-                        stroke-width="3"
-                        fill="orange" />
-                <text x="35" y="260"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Organisation
-                </text>
-                <circle cx="253" cy="485" r="40"
-                        stroke="orange"
-                        stroke-width="3"
-                        fill="orange" />
-                <text x="253" y="485"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    mentorship
-                </text>
-                <circle cx="465" cy="250" r="40"
-                        stroke="green"
-                        stroke-width="3"
-                        fill="green" />
-                <text x="465" y="250"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Sustainability
-                </text>
-                <circle cx="457" cy="335" r="40"
-                        stroke="green"
-                        stroke-width="3"
-                        fill="green" />
-                <text x="457" y="335"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Mathematics
-                </text>
-                <circle cx="415" cy="410" r="40"
-                        stroke="green"
-                        stroke-width="3"
-                        fill="green" />
-                <text x="415" y="410"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Engineering
-                </text>
-                <circle cx="340" cy="465" r="40"
-                        stroke="green"
-                        stroke-width="3"
-                        fill="green" />
-                <text x="340" y="465"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Art
-                </text>
-                <circle cx="442" cy="167" r="40"
-                        stroke="green"
-                        stroke-width="3"
-                        fill="green" />
-                <text x="442" y="167"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Technology
-                </text>
-                <circle cx="385" cy="101" r="40"
-                        stroke="green"
-                        stroke-width="3"
-                        fill="green" />
-                <text x="385" y="101"
-                      text-anchor="middle"
-                      font-size="11"
-                      stroke="white"
-                      stroke-width="1px">
-                    Science
-                </text>
+            @*Feel good - what do you do when you feel your happiest?*@
+            <span>Pick as many as you like</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400">
+                <g fill="none" stroke-width="30" stroke-dasharray="120 360" transform="translate(50 50)">
+                    <circle r="18" stroke="Green" pathLength="360" />
+                    <circle r="18" stroke="DeepSkyBlue" pathLength="360" transform="rotate(120)" />
+                    <circle r="18" stroke="Orange" pathLength="360" transform="rotate(240)" />
+                    <circle r="18" fill="White" transform="rotate(0)" />
+                </g>
+                <g transform="translate(50 50) rotate(10)">
+                    <circle cx="42" r="7" fill="Green" transform="rotate(0)" onclick="clickCircKnowledge('Science')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(20)" onclick="clickCircKnowledge('Technology')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(40)" onclick="clickCircKnowledge('Art')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(60)" onclick="clickCircKnowledge('Engineering')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(80)" onclick="clickCircKnowledge('Mathematics')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(100)" onclick="clickCircKnowledge('Sustainability')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(120)" onclick="clickCircPassions('Sport')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(140)" onclick="clickCircPassions('Art')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(160)" onclick="clickCircPassions('Travel')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(180)" onclick="clickCircPassions('Music')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(200)" onclick="clickCircPassions('Learning')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(220)" onclick="clickCircSocialising('Socialising')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(240)" onclick="clickCircTalents('Innovation')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(260)" onclick="clickCircTalents('People')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(280)" onclick="clickCircTalents('Strategy')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(300)" onclick="clickCircTalents('Organisation')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(320)" onclick="clickCircTalents('Mentorship')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(340)" onclick="clickCircTalents('Writing')" />
+                </g>
+                <g font-size="3" text-anchor="middle" dominant-baseline="middle"
+                   fill="white" transform="translate(50 50)">
+                    <text transform="rotate(50) translate(25) rotate(-90)">Knowledge</text>
+                    <text transform="rotate(180) translate(25) rotate(-270)">Passions</text>
+                    <text transform="rotate(300) translate(25) rotate(-270)">Talents</text>
+                    <foreignObject x="-11" y="-7" width="9em" height="6em">
+                        <p>What do you do when you feel your happiest?</p>
+                    </foreignObject>
+                </g>
+                <g font-size="2" font-weight="bold" font-family="sans-serif"
+                   text-anchor="middle" dominant-baseline="middle" fill="white"
+                   transform="translate(50 50)">
+                    <text transform="rotate(10) translate(42) rotate(-10)" onclick="clickCircKnowledge('Science')">Science</text>
+                    <text transform="rotate(30) translate(42) rotate(-30)" onclick="clickCircKnowledge('Technology')">Technology</text>
+                    <text transform="rotate(50) translate(42) rotate(-50)" onclick="clickCircKnowledge('Art')">Art</text>
+                    <text transform="rotate(70) translate(42) rotate(-70)" onclick="clickCircKnowledge('Engineering')">Engineering</text>
+                    <text transform="rotate(90) translate(42) rotate(-90)" onclick="clickCircKnowledge('Mathematics')">Mathematics</text>
+                    <text transform="rotate(110) translate(42) rotate(-110)" onclick="clickCircKnowledge('Sustainability')">Sustainability</text>
+                    <text transform="rotate(130) translate(42) rotate(-130)" onclick="clickCircPassions('Sport')">Sport</text>
+                    <text transform="rotate(150) translate(42) rotate(-150)" onclick="clickCircPassions('Art')">Art</text>
+                    <text transform="rotate(170) translate(42) rotate(-170)" onclick="clickCircPassions('Travel')">Travel</text>
+                    <text transform="rotate(190) translate(42) rotate(-190)" onclick="clickCircPassions('Music')">Music</text>
+                    <text transform="rotate(210) translate(42) rotate(-210)" onclick="clickCircPassions('Learning')">Learning</text>
+                    <text transform="rotate(230) translate(42) rotate(-230)" onclick="clickCircPassions('Socialising')">Socialising</text>
+                    <text transform="rotate(250) translate(42) rotate(-250)" onclick="clickCircTalents('Innovation')">Innovation</text>
+                    <text transform="rotate(270) translate(42) rotate(-270)" onclick="clickCircTalents('People')">People</text>
+                    <text transform="rotate(290) translate(42) rotate(-290)" onclick="clickCircTalents('Strategy')">Strategy</text>
+                    <text transform="rotate(310) translate(42) rotate(-310)" onclick="clickCircTalents('Organisation')">Organisation</text>
+                    <text transform="rotate(330) translate(42) rotate(-330)" onclick="clickCircTalents('Mentorship')">Mentorship</text>
+                    <text transform="rotate(350) translate(42) rotate(-350)" onclick="clickCircTalents('Writing')">Writing</text>
+                </g>
             </svg>
 
-
-
-
-            @*Feel good*@
             <div>
                 <div class="form-group">
-                    <label asp-for="feelGood.Passions" class="control-label"></label>
-                    <input asp-for="feelGood.Passions" class="form-control" />
-                    <input type="hidden" id="feelGood.Passions" name="feelGood.Passions" asp-for="UserId" />
+                    <input type="hidden" id="feelGood.Passions" name="feelGood.Passions" asp-for="feelGood.Passions" />
                     <span asp-validation-for="feelGood.Passions" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="feelGood.Knowledge" class="control-label"></label>
-                    <input asp-for="feelGood.Knowledge" class="form-control" />
+                    <input type="hidden" id="feelGood.Knowledge" name="feelGood.Knowledge" asp-for="feelGood.Knowledge" />
                     <span asp-validation-for="feelGood.Knowledge" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="feelGood.Talents" class="control-label"></label>
-                    <input asp-for="feelGood.Talents" class="form-control" />
+                    <input type="hidden" id="feelGood.Talents" name="feelGood.Talents" asp-for="feelGood.Talents" />
                     <span asp-validation-for="feelGood.Talents" class="text-danger"></span>
                 </div>
             </div>
+
             @*Do good*@
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400">
+                <g fill="none" stroke-width="30" stroke-dasharray="120 360" transform="translate(50 50)">
+                    <circle r="18" stroke="Green" pathLength="360" />
+                    <circle r="18" stroke="DeepSkyBlue" pathLength="360" transform="rotate(120)" />
+                    <circle r="18" stroke="Orange" pathLength="360" transform="rotate(240)" />
+                    <circle r="18" fill="White" transform="rotate(0)" />
+                </g>
+                <g transform="translate(50 50) rotate(10)">
+                    <circle cx="42" r="7" fill="Green" transform="rotate(0)" onclick="clickCircPlanet('Quality water')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(20)" onclick="clickCircPlanet('Clean energy')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(40)" onclick="clickCircPlanet('Responsible consumption')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(60)" onclick="clickCircPlanet('Climate action')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(80)" onclick="clickCircPlanet('Life on land')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(100)" onclick="clickCircPlanet('Life in the sea')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(120)" onclick="clickCircPeople('Partnerships')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(140)" onclick="clickCircPeople('Peace and Justice')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(160)" onclick="clickCircPeople('Green Cities')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(180)" onclick="clickCircPeople('End Discrimination')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(200)" onclick="clickCircPeople('Gender Equality')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(220)" onclick="clickCircPeople('Quality Education')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(240)" onclick="clickCircProsperity('End poverty')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(260)" onclick="clickCircProsperity('Zero hunger')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(280)" onclick="clickCircProsperity('Health and wellbeing')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(300)" onclick="clickCircProsperity('Quality work')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(320)" onclick="clickCircProsperity('Innovation for good')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(340)" onclick="clickCircProsperity()" />
+                </g>
+                <g font-size="3" text-anchor="middle" dominant-baseline="middle"
+                   fill="white" transform="translate(50 50)">
+                    <text transform="rotate(50) translate(25) rotate(-90)">Knowledge</text>
+                    <text transform="rotate(180) translate(25) rotate(-270)">Passions</text>
+                    <text transform="rotate(300) translate(25) rotate(-270)">Talents</text>
+                    <foreignObject x="-11" y="-7" width="9em" height="6em">
+                        <p>
+                            What wishes do you have for the world?
+                        </p>
+                    </foreignObject>
+                </g>
+                <g font-size="2" font-weight="bold" font-family="sans-serif"
+                   text-anchor="middle" dominant-baseline="middle" fill="white"
+                   transform="translate(50 50)">
+                    <text transform="rotate(10) translate(42) rotate(-10)" onclick="clickCircPlanet('Quality water')">Quality water</text>
+                    <text transform="rotate(30) translate(42) rotate(-30)" onclick="clickCircPlanet('Clean energy')">Clean energy</text>
+                    <text transform="rotate(50) translate(42) rotate(-50)" onclick="clickCircPlanet('Responsible consumption')">Responsible consumption</text>
+                    <text transform="rotate(70) translate(42) rotate(-70)" onclick="clickCircPlanet('Climate action')">Climate action</text>
+                    <text transform="rotate(90) translate(42) rotate(-90)" onclick="clickCircPlanet('Life on land')">Life on land</text>
+                    <text transform="rotate(110) translate(42) rotate(-110)" onclick="clickCircPlanet('Life in the sea')">Life in the sea</text>
+                    <text transform="rotate(130) translate(42) rotate(-130)" onclick="clickCircPeople('Partnerships')">Partnerships</text>
+                    <text transform="rotate(150) translate(42) rotate(-150)" onclick="clickCircPeople('Peace and Justice')">Peace and Justice</text>
+                    <text transform="rotate(170) translate(42) rotate(-170)" onclick="clickCircPeople('Green Cities')">Green Cities</text>
+                    <text transform="rotate(190) translate(42) rotate(-190)" onclick="clickCircPeople('End Discrimination')">End Discrimination</text>
+                    <text transform="rotate(210) translate(42) rotate(-210)" onclick="clickCircPeople('Gender Equality')">Gender Equality</text>
+                    <text transform="rotate(230) translate(42) rotate(-230)" onclick="clickCircPeople('Quality Education')">Quality Education</text>
+                    <text transform="rotate(250) translate(42) rotate(-250)" onclick="clickCircProsperity('End poverty')">End poverty</text>
+                    <text transform="rotate(270) translate(42) rotate(-270)" onclick="clickCircProsperity('Zero hunger')">Zero hunger</text>
+                    <text transform="rotate(290) translate(42) rotate(-290)" onclick="clickCircProsperity('Health and wellbeing')">Health and wellbeing</text>
+                    <text transform="rotate(310) translate(42) rotate(-310)" onclick="clickCircProsperity('Quality work')">Quality work</text>
+                    <text transform="rotate(330) translate(42) rotate(-330)" onclick="clickCircProsperity('Innovation for good')">Innovation for good</text>
+                    <text transform="rotate(350) translate(42) rotate(-350)" onclick="clickCircProsperity('Zero hunger')">Zero hunger</text>
+                </g>
+            </svg>
             <div>
                 <div class="form-group">
-                    <label asp-for="doGood.People" class="control-label"></label>
-                    <input asp-for="doGood.People" class="form-control" />
+                    <input type="hidden" id="doGood.People" name="doGood.People" asp-for="doGood.People" />
                     <span asp-validation-for="doGood.People" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="doGood.Planet" class="control-label"></label>
-                    <input asp-for="doGood.Planet" class="form-control" />
+                    <input type="hidden" id="doGood.Planet" name="doGood.Planet" asp-for="doGood.Planet" />
                     <span asp-validation-for="doGood.Planet" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="doGood.Prosperity" class="control-label"></label>
-                    <input asp-for="doGood.Prosperity" class="form-control" />
+                    <input type="hidden" id="doGood.Prosperity" name="doGood.Prosperity" asp-for="doGood.Prosperity" />
                     <span asp-validation-for="doGood.Prosperity" class="text-danger"></span>
                 </div>
             </div>
             @*Be good*@
+            <span>Pick as many as you like</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="400">
+                <g fill="none" stroke-width="30" stroke-dasharray="120 360" transform="translate(50 50)">
+                    <circle r="18" stroke="Green" pathLength="360" />
+                    <circle r="18" stroke="DeepSkyBlue" pathLength="360" transform="rotate(120)" />
+                    <circle r="18" stroke="Orange" pathLength="360" transform="rotate(240)" />
+                    <circle r="18" fill="White" transform="rotate(0)" />
+                </g>
+                <g transform="translate(50 50) rotate(10)">
+                    <circle cx="42" r="7" fill="Green" transform="rotate(0)" onclick="clickCircAction('Being')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(20)" onclick="clickCircAction('Thinking')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(40)" onclick="clickCircAction('Relating')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(60)" onclick="clickCircAction('Collaborating')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(80)" onclick="clickCircAction('Acting')" />
+                    <circle cx="42" r="7" fill="Green" transform="rotate(100)" onclick="clickCircAction()" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(120)" onclick="clickBeGoodPassions('Music')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(140)" onclick="clickBeGoodPassions('Art')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(160)" onclick="clickBeGoodPassions('Learning')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(180)" onclick="clickBeGoodPassions('Travel')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(200)" onclick="clickBeGoodPassions('Socializing')" />
+                    <circle cx="42" r="7" fill="DeepSkyBlue" transform="rotate(220)" onclick="clickBeGoodPassions('Sport')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(240)" onclick="clickCircBeGoodKnowledge('Entrepreneurship')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(260)" onclick="clickCircBeGoodKnowledge('Technology')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(280)" onclick="clickCircBeGoodKnowledge('Law')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(300)" onclick="clickCircBeGoodKnowledge('Finance')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(320)" onclick="clickCircBeGoodKnowledge('Sustainability')" />
+                    <circle cx="42" r="7" fill="Orange" transform="rotate(340)" onclick="clickCircBeGoodKnowledge('Mathematics')" />
+                </g>
+                <g font-size="3" text-anchor="middle" dominant-baseline="middle"
+                   fill="white" transform="translate(50 50)">
+                    <text transform="rotate(50) translate(25) rotate(-90)">Knowledge</text>
+                    <text transform="rotate(180) translate(25) rotate(-270)">Passions</text>
+                    <text transform="rotate(300) translate(25) rotate(-270)">Talents</text>
+                    <foreignObject x="-11" y="-7" width="9em" height="6em">
+                        <p>How do you want to grow?</p>
+                    </foreignObject>
+                </g>
+                <g font-size="2" font-weight="bold" font-family="sans-serif"
+                   text-anchor="middle" dominant-baseline="middle" fill="white"
+                   transform="translate(50 50)">
+                    <text transform="rotate(10) translate(42) rotate(-10)" onclick="clickCircAction('Being')">Being</text>
+                    <text transform="rotate(30) translate(42) rotate(-30)" onclick="clickCircAction('Thinking')">Thinking</text>
+                    <text transform="rotate(50) translate(42) rotate(-50)" onclick="clickCircAction('Relating')">Relating</text>
+                    <text transform="rotate(70) translate(42) rotate(-70)" onclick="clickCircAction('Collaborating')">Collaborating</text>
+                    <text transform="rotate(90) translate(42) rotate(-90)" onclick="clickCircAction('Acting')">Acting</text>
+                    <text transform="rotate(110) translate(42) rotate(-110)" onclick="clickCircAction('')"></text>
+                    <text transform="rotate(130) translate(42) rotate(-130)" onclick="clickBeGoodPassions('Music')">Music</text>
+                    <text transform="rotate(150) translate(42) rotate(-150)" onclick="clickBeGoodPassions('Art')">Art</text>
+                    <text transform="rotate(170) translate(42) rotate(-170)" onclick="clickBeGoodPassions('Learning')">Learning</text>
+                    <text transform="rotate(190) translate(42) rotate(-190)" onclick="clickBeGoodPassions('Travel')">Travel</text>
+                    <text transform="rotate(210) translate(42) rotate(-210)" onclick="clickBeGoodPassions('Socializing')">Socializing</text>
+                    <text transform="rotate(230) translate(42) rotate(-230)" onclick="clickBeGoodPassions('Sport')">Sport</text>
+                    <text transform="rotate(250) translate(42) rotate(-250)" onclick="clickCircBeGoodKnowledge('Entrepreneurship')">Entrepreneurship</text>
+                    <text transform="rotate(270) translate(42) rotate(-270)" onclick="clickCircBeGoodKnowledge('Technology')">Technology</text>
+                    <text transform="rotate(290) translate(42) rotate(-290)" onclick="clickCircBeGoodKnowledge('Law')">Law</text>
+                    <text transform="rotate(310) translate(42) rotate(-310)" onclick="clickCircBeGoodKnowledge('Finance')">Finance</text>
+                    <text transform="rotate(330) translate(42) rotate(-330)" onclick="clickCircBeGoodKnowledge('Sustainability')">Sustainability</text>
+                    <text transform="rotate(350) translate(42) rotate(-350)" onclick="clickCircBeGoodKnowledge('Mathematics')">Mathematics</text>
+                </g>
+            </svg>
             <div>
                 <div class="form-group">
-                    <label asp-for="beGood.Knowledge" class="control-label"></label>
-                    <input asp-for="beGood.Knowledge" class="form-control" />
+                    <input type="hidden" id="beGood.Knowledge" name="beGood.Knowledge" asp-for="beGood.Knowledge" />
                     <span asp-validation-for="beGood.Knowledge" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="beGood.Passions" class="control-label"></label>
-                    <input asp-for="beGood.Passions" class="form-control" />
+                    <input type="hidden" id="beGood.Passions" name="beGood.Passions" asp-for="beGood.Passions" />
                     <span asp-validation-for="beGood.Passions" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="beGood.Action" class="control-label"></label>
-                    <input asp-for="beGood.Action" class="form-control" />
+                    <input type="hidden" id="beGood.Action" name="beGood.Action" asp-for="beGood.Action" />
                     <span asp-validation-for="beGood.Action" class="text-danger"></span>
                 </div>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -273,3 +265,5 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+<script src="~/js/BelongingCircles.js" asp-append-version="true"></script>

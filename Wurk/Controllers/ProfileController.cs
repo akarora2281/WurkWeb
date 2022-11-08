@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,8 @@ using Wurk.Infrastructure.Data.Models;
 
 namespace Wurk.Controllers
 {
+    //[Authorize(Roles = GlobalConstants.UserRoleName)]
+    //[Authorize(Roles = GlobalConstants.AdministratorRoleName)]
     public class ProfileController : Controller
     {
         private readonly ApplicationDbContext _context;

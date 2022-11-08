@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YxPnnkMyvpEQXupcxpuzD3K4pS0fabhtg9HAz+98SXWFYh8NGq2pB5NvOQDmiRLSfhVSXneRt0yOQ9mUcDoxtA==",
+  "dgSpecHash": "5l9ZFmnf+ZyPv1RU2RyPt/JntF3eM+qpI3Y3TCGYNNo1EcGJckrWLpEgGCaE6Z9uwDOavZb/Adp6qOxRKZKayQ==",
   "success": true,
-  "projectFilePath": "/Users/amitk/Documents/Wurk-Apps/Wurk/Wurk/Wurk.Common/Wurk.Common.csproj",
+  "projectFilePath": "/Users/amitk/Documents/Wurk/Wurk-Apps/WurkRepo/WurkWeb/Wurk.Common/Wurk.Common.csproj",
   "expectedPackageFiles": [
     "/Users/amitk/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/amitk/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
